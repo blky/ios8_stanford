@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F6D5ACC1AA96AAC009D2D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D5ACB1AA96AAC009D2D39 /* AppDelegate.swift */; };
+		8F6D5ACE1AA96AAC009D2D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D5ACD1AA96AAC009D2D39 /* ViewController.swift */; };
+		8F6D5AD11AA96AAC009D2D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D5ACF1AA96AAC009D2D39 /* Main.storyboard */; };
+		8F6D5AD31AA96AAC009D2D39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D5AD21AA96AAC009D2D39 /* Images.xcassets */; };
+		8F6D5AD61AA96AAC009D2D39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D5AD41AA96AAC009D2D39 /* LaunchScreen.xib */; };
+		8F6D5AE21AA96AAC009D2D39 /* StandCaculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D5AE11AA96AAC009D2D39 /* StandCaculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F6D5ADC1AA96AAC009D2D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F6D5ABE1AA96AAC009D2D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6D5AC51AA96AAC009D2D39;
+			remoteInfo = StandCaculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F6D5AC61AA96AAC009D2D39 /* StandCaculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandCaculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6D5ACA1AA96AAC009D2D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6D5ACB1AA96AAC009D2D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F6D5ACD1AA96AAC009D2D39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F6D5AD01AA96AAC009D2D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F6D5AD21AA96AAC009D2D39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F6D5AD51AA96AAC009D2D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8F6D5ADB1AA96AAC009D2D39 /* StandCaculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandCaculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6D5AE01AA96AAC009D2D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6D5AE11AA96AAC009D2D39 /* StandCaculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandCaculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F6D5AC31AA96AAC009D2D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6D5AD81AA96AAC009D2D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F6D5ABD1AA96AAC009D2D39 = {
+			isa = PBXGroup;
+			children = (
+				8F6D5AC81AA96AAC009D2D39 /* StandCaculator */,
+				8F6D5ADE1AA96AAC009D2D39 /* StandCaculatorTests */,
+				8F6D5AC71AA96AAC009D2D39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6D5AC71AA96AAC009D2D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D5AC61AA96AAC009D2D39 /* StandCaculator.app */,
+				8F6D5ADB1AA96AAC009D2D39 /* StandCaculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F6D5AC81AA96AAC009D2D39 /* StandCaculator */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D5ACB1AA96AAC009D2D39 /* AppDelegate.swift */,
+				8F6D5ACD1AA96AAC009D2D39 /* ViewController.swift */,
+				8F6D5ACF1AA96AAC009D2D39 /* Main.storyboard */,
+				8F6D5AD21AA96AAC009D2D39 /* Images.xcassets */,
+				8F6D5AD41AA96AAC009D2D39 /* LaunchScreen.xib */,
+				8F6D5AC91AA96AAC009D2D39 /* Supporting Files */,
+			);
+			path = StandCaculator;
+			sourceTree = "<group>";
+		};
+		8F6D5AC91AA96AAC009D2D39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D5ACA1AA96AAC009D2D39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F6D5ADE1AA96AAC009D2D39 /* StandCaculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D5AE11AA96AAC009D2D39 /* StandCaculatorTests.swift */,
+				8F6D5ADF1AA96AAC009D2D39 /* Supporting Files */,
+			);
+			path = StandCaculatorTests;
+			sourceTree = "<group>";
+		};
+		8F6D5ADF1AA96AAC009D2D39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D5AE01AA96AAC009D2D39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F6D5AC51AA96AAC009D2D39 /* StandCaculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6D5AE51AA96AAC009D2D39 /* Build configuration list for PBXNativeTarget "StandCaculator" */;
+			buildPhases = (
+				8F6D5AC21AA96AAC009D2D39 /* Sources */,
+				8F6D5AC31AA96AAC009D2D39 /* Frameworks */,
+				8F6D5AC41AA96AAC009D2D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StandCaculator;
+			productName = StandCaculator;
+			productReference = 8F6D5AC61AA96AAC009D2D39 /* StandCaculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F6D5ADA1AA96AAC009D2D39 /* StandCaculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6D5AE81AA96AAC009D2D39 /* Build configuration list for PBXNativeTarget "StandCaculatorTests" */;
+			buildPhases = (
+				8F6D5AD71AA96AAC009D2D39 /* Sources */,
+				8F6D5AD81AA96AAC009D2D39 /* Frameworks */,
+				8F6D5AD91AA96AAC009D2D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F6D5ADD1AA96AAC009D2D39 /* PBXTargetDependency */,
+			);
+			name = StandCaculatorTests;
+			productName = StandCaculatorTests;
+			productReference = 8F6D5ADB1AA96AAC009D2D39 /* StandCaculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F6D5ABE1AA96AAC009D2D39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Cindy Z";
+				TargetAttributes = {
+					8F6D5AC51AA96AAC009D2D39 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8F6D5ADA1AA96AAC009D2D39 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8F6D5AC51AA96AAC009D2D39;
+					};
+				};
+			};
+			buildConfigurationList = 8F6D5AC11AA96AAC009D2D39 /* Build configuration list for PBXProject "StandCaculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F6D5ABD1AA96AAC009D2D39;
+			productRefGroup = 8F6D5AC71AA96AAC009D2D39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6D5AC51AA96AAC009D2D39 /* StandCaculator */,
+				8F6D5ADA1AA96AAC009D2D39 /* StandCaculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F6D5AC41AA96AAC009D2D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6D5AD11AA96AAC009D2D39 /* Main.storyboard in Resources */,
+				8F6D5AD61AA96AAC009D2D39 /* LaunchScreen.xib in Resources */,
+				8F6D5AD31AA96AAC009D2D39 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6D5AD91AA96AAC009D2D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6D5AC21AA96AAC009D2D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6D5ACE1AA96AAC009D2D39 /* ViewController.swift in Sources */,
+				8F6D5ACC1AA96AAC009D2D39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6D5AD71AA96AAC009D2D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6D5AE21AA96AAC009D2D39 /* StandCaculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F6D5ADD1AA96AAC009D2D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F6D5AC51AA96AAC009D2D39 /* StandCaculator */;
+			targetProxy = 8F6D5ADC1AA96AAC009D2D39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F6D5ACF1AA96AAC009D2D39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6D5AD01AA96AAC009D2D39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F6D5AD41AA96AAC009D2D39 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6D5AD51AA96AAC009D2D39 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F6D5AE31AA96AAC009D2D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F6D5AE41AA96AAC009D2D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F6D5AE61AA96AAC009D2D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StandCaculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6D5AE71AA96AAC009D2D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StandCaculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6D5AE91AA96AAC009D2D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StandCaculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandCaculator.app/StandCaculator";
+			};
+			name = Debug;
+		};
+		8F6D5AEA1AA96AAC009D2D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StandCaculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandCaculator.app/StandCaculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F6D5AC11AA96AAC009D2D39 /* Build configuration list for PBXProject "StandCaculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6D5AE31AA96AAC009D2D39 /* Debug */,
+				8F6D5AE41AA96AAC009D2D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6D5AE51AA96AAC009D2D39 /* Build configuration list for PBXNativeTarget "StandCaculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6D5AE61AA96AAC009D2D39 /* Debug */,
+				8F6D5AE71AA96AAC009D2D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F6D5AE81AA96AAC009D2D39 /* Build configuration list for PBXNativeTarget "StandCaculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6D5AE91AA96AAC009D2D39 /* Debug */,
+				8F6D5AEA1AA96AAC009D2D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F6D5ABE1AA96AAC009D2D39 /* Project object */;
+}
